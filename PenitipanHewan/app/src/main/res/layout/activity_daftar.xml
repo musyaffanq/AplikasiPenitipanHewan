@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo_icon" />
+
+    <EditText
+        android:id="@+id/regUser"
+        android:layout_width="140pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_width="140pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/regRepass"
+        android:layout_width="140pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Rewrite Password"
+        android:inputType="textPassword" />
+
+    <Button
+
+        android:id="@+id/btnReg"
+        android:layout_width="140pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Daftar" />
+
+    <TextView
+        android:id="@+id/navLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:text="Login Disini"
+        />
+
+
+</LinearLayout>
